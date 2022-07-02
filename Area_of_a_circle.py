@@ -1,5 +1,3 @@
-r=float(input())
-pi=3.14
-a=pi*r*r
-x='{:.2f}'.format(a)
-print(x)
+r=int(input())
+sh=3.14*r*r
+print('%.2f'%sh)
